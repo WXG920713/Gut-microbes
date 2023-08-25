@@ -1,0 +1,3 @@
+lefse_format_input.py data.txt lefse_format.in -c 1 -s 2 -u 3 -o 1000000
+lefse_run.py lefse_format.in lefse_anaylise_result.res
+lefse_plot_res.py lefse_choosed.res lefse_small.svg --format svg
